@@ -1,0 +1,48 @@
+@import "../../variables.scss";
+
+.card {
+    background-color: $lightColor;
+    color: $primaryColor;
+    border-radius: 16px;
+    width: 350px;
+    height: 500px;
+    margin: 16px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.4);
+        transform: translateY(-5px);
+    }
+
+    .card_image {
+        border-radius: 16px 16px 0px 0px;
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card_content {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 32px 32px 32px;
+
+        h4 {
+            font-size: $fontsizeSubtitle;
+            margin-bottom: 16px;
+            text-align: start;
+            width: 100%;
+            color: $primaryColor;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 16px;
+            text-align: start;
+            width: 100%;
+            color: $primaryColor;
+        }
+    }
+}

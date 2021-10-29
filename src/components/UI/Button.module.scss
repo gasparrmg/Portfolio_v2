@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.button {
+    padding: 9px 25px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: inherit;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: $lightColor;
+    border: 2px solid $lightColor;
+    color: $primaryColor;
+}

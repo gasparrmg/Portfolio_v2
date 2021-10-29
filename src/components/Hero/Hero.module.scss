@@ -1,0 +1,35 @@
+.hero_flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+
+    min-height: 100vh;
+    padding: 0px;
+
+    .portrait {
+        border-radius: 50%;
+        max-width: 50%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .hero_content_flex {
+        margin-left: 32px;
+    }
+
+    h1 {
+        font-size: 86px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+}
